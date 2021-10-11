@@ -3,11 +3,13 @@
 ## Purpose
 A Node.js command-line application that takes in information about employees on a software engineering team and generates a HTML webpage that displays summaries for each person.
 
+## Website
+
 ## Video Walkthrough
-https://link_here
+https://watch.screencastify.com/v/ePBQg4o9i23VJrpUtVhP
 
 ## Screenshot
-image of finished site here...
+![Screenshot of top of page](./image/teamscreenshot.jpg)
 
 ## Built With
 * HTML
