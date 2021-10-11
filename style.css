@@ -1,0 +1,97 @@
+/* --- Universal Styling ------------------------------ */
+
+h1 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin: 0;
+}
+h2 {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+h3 {
+  color: #fff;
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  margin: 0 10px;
+}
+a {
+  color: #6c56ac;
+}
+a:hover {
+  color: #4c3c7a;
+}
+a:active {
+  color: #372b58;
+}
+
+/* --- Header ----------------------------------------- */
+
+header {
+  background: linear-gradient(90deg, rgba(153,137,197,1) 0%, rgba(108,86,172,1) 35%, rgba(76,60,122,1) 100%);
+  padding: 6px 0;
+  text-align: center;
+}
+
+/* --- Cards ------------------------------------------ */
+
+.team {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 0;
+  width: 80%;
+}
+.team-member {
+  margin: 12px;
+}
+.card {
+  background-color: #6c56ac;
+  border: 3px solid #6c56ac;
+  color: #fff;
+  height: 100%;
+  width: 300px;
+}
+.card:hover {
+  background-color: #4c3c7a;
+  border: 3px solid #4c3c7a;
+  color: #fff;
+}
+.card:active {
+  background-color: #372b58;
+  border: 3px solid #372b58;
+}
+.card-body {
+  background-color: #eee;
+}
+.list-group {
+  color: #000;
+  font-size: 15px;
+}
+
+/* --- Media Queries ---------------------------------- */
+
+@media screen and (max-width: 1023px) {
+  .team {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .card,
+  .team,
+  .team-member {
+    width: 100%;
+  }
+}
